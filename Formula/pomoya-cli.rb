@@ -1,12 +1,12 @@
 class PomoyaCli < Formula
   desc "Pomoya in your terminal: focus timer synced with the Pomoya apps"
   homepage "https://pomoya.page"
-  url "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.3.1/pomoya-cli-0.3.1.tar.gz"
-  sha256 "882c52718481af2cea1e3a06519d9bd8b6d3d19f5fc86eb43cedcfcc5bcb5683"
+  url "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.3.2/pomoya-cli-0.3.2.tar.gz"
+  sha256 "9c13eb738bd2a11586e93817d1d18b2a99e9c07118ebacde04b9d3caebc9c899"
 
   bottle do
-    root_url "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.3.1"
-    sha256 cellar: :any_skip_relocation, all: "0650a47bf76938dd8c19ef9f67a2dcb829cabf1f58c1218295fa1bfc570accc3"
+    root_url "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.3.2"
+    sha256 cellar: :any_skip_relocation, all: "9a184d860f3a96ab0a06b1b35a80ddaad37204a89eef05d4900f251e879f9285"
   end
 
   depends_on "node"
@@ -15,7 +15,7 @@ class PomoyaCli < Formula
     libexec.install Dir["*"]
     (bin/"pomoya").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/pomoya.mjs" "$@"
+      exec "#{Formula["node"].opt_bin}/node" "--max-semi-space-size=1" "#{libexec}/pomoya.mjs" "$@"
     EOS
   end
 
