@@ -1,6 +1,6 @@
 cask "pomoya" do
-  version "0.3.7"
-  sha256 "0c556ba92ff02fcd7cb286211a9244b29f41f4d16ece82c637ac6517a2327750"
+  version "1.0.2"
+  sha256 "d24da2f5fbf83f9d0ffd946dc32415a5d953646961db70a6f5745c7b9c578486"
 
   url "https://github.com/xo0449/pomoya-site/releases/download/v#{version}/Pomoya_#{version}_universal.dmg"
   name "Pomoya"
