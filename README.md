@@ -18,7 +18,14 @@ pomoya login
 pomoya
 ```
 
-Windows(PowerShell, Node.js 20 이상: `winget install OpenJS.NodeJS.LTS`):
+Windows는 [Scoop](https://scoop.sh)으로(이 저장소가 Scoop 버킷도 겸한다, `bucket/`). Node.js는 Scoop이 같이 깐다:
+
+```powershell
+scoop bucket add xo0449 https://github.com/xo0449/homebrew-tap
+scoop install pomoya-cli
+```
+
+새 버전은 `scoop update pomoya-cli`. Scoop 없이 깔려면(Node.js 20 이상 필요):
 
 ```powershell
 irm https://raw.githubusercontent.com/xo0449/homebrew-tap/main/install-pomoya-cli.ps1 | iex
