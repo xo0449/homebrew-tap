@@ -1,13 +1,12 @@
 class PomoyaCli < Formula
   desc "Pomoya in your terminal: focus timer synced with the Pomoya apps"
   homepage "https://pomoya.page"
-  url "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.1.0/pomoya-cli-0.1.0.tar.gz"
-  sha256 "36c5231956e3d78e72c101dfef218fa931839679f3f2d433d09a2d35cf95572f"
+  url "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.2.0/pomoya-cli-0.2.0.tar.gz"
+  sha256 "09c07c3b050db97f0b7950480f6c0026c6e1e18de925fc1e4a4de77ccd301d38"
 
   bottle do
-    root_url "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.1.0"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, all: "11b9eb1f570b67aa35d681a83515aa40ea4445aa4205930f1d4237734e3ed9a8"
+    root_url "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.2.0"
+    sha256 cellar: :any_skip_relocation, all: "3e6ceb177d0be94e533d7ded1c368b691b26ab5c0fa1105044417bbe98c99522"
   end
 
   depends_on "node"
