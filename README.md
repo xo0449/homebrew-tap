@@ -10,10 +10,16 @@ brew install --cask xo0449/tap/pomoya
 
 ## pomoya-cli
 
-터미널에서 쓰는 뽀모야(맥·리눅스).
+터미널에서 쓰는 뽀모야(맥·리눅스·Windows).
 
 ```bash
 brew install xo0449/tap/pomoya-cli
 pomoya login
 pomoya
+```
+
+Windows(PowerShell, Node.js 20 이상: `winget install OpenJS.NodeJS.LTS`):
+
+```powershell
+irm https://raw.githubusercontent.com/xo0449/homebrew-tap/main/install-pomoya-cli.ps1 | iex
 ```
