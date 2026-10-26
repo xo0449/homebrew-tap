@@ -1,5 +1,5 @@
 {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Pomoya in your terminal: focus timer synced with the Pomoya apps",
     "homepage": "https://pomoya.page",
     "license": {
@@ -7,9 +7,9 @@
         "url": "https://pomoya.page/terms.html"
     },
     "depends": "main/nodejs-lts",
-    "url": "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.3.2/pomoya-cli-0.3.2-windows.zip",
-    "hash": "080a6d2b15452ea1b217a753e4a1aa840b3553305cb378bb26276d37b3c98a28",
-    "extract_dir": "pomoya-cli-0.3.2",
+    "url": "https://github.com/xo0449/homebrew-tap/releases/download/pomoya-cli-0.3.3/pomoya-cli-0.3.3-windows.zip",
+    "hash": "92252e802659fdcda0f5f9b1868b0feb72b17abe1ca5b1d5ce66520f7aa32b93",
+    "extract_dir": "pomoya-cli-0.3.3",
     "bin": "pomoya.cmd",
     "checkver": {
         "url": "https://api.github.com/repos/xo0449/homebrew-tap/releases",

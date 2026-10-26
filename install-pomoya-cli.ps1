@@ -2,7 +2,7 @@
 #   irm https://raw.githubusercontent.com/xo0449/homebrew-tap/main/install-pomoya-cli.ps1 | iex
 # 관리자 권한 없이 %LOCALAPPDATA%\Programs\pomoya-cli 에 풀고 사용자 PATH에 더한다. 다시 돌리면 새 버전으로 바꾼다
 $ErrorActionPreference = 'Stop'
-$version = '0.3.2'
+$version = '0.3.3'
 
 $node = Get-Command node -ErrorAction SilentlyContinue
 if (-not $node) {
